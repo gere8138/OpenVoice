@@ -14,7 +14,7 @@ tone_color_converter.load_ckpt(f'{ckpt_converter}/checkpoint.pth')
 os.makedirs(output_dir, exist_ok=True)
 
 reference_speaker = 'voices/' # This is the voice you want to clone, make folder called voices then write voices/[file name] here
-target_se, audio_name = se_extractor.get_se(reference_speaker, tone_color_converter, None, vad=False) #instead of none, write folder file in processed to skip training period
+target_se, audio_name = se_extractor.get_se(reference_speaker, tone_color_converter, None, vad=False) #instead of None, write folder file name in processed to skip training period
 
 from melo.api import TTS
 
