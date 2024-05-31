@@ -1,13 +1,5 @@
 # Usage
 
-## Table of Content
-
-- [Quick Use](#quick-use): directly use OpenVoice without installation.
-- [Linux Install](#linux-install): for researchers and developers only.
-    - [V1](#openvoice-v1)
-    - [V2](#openvoice-v2)
-- [Install on Other Platforms](#install-on-other-platforms): unofficial installation guide contributed by the community
-
 ## Linux Install
 
 This section is only for developers and researchers who are familiar with Linux, Python and PyTorch. Clone this repo, and run
