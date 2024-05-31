@@ -23,6 +23,7 @@ Install [MeloTTS](https://github.com/myshell-ai/MeloTTS):
 pip install git+https://github.com/myshell-ai/MeloTTS.git
 python -m unidic download
 ```
+edit se_extractor.py line 22 accordingly
 
 **Demo Usage.** 
 ```
